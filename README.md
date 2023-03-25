@@ -3,7 +3,9 @@
 This Flutter project contains Email verification with Lottie Animations.
 
 If you are using this application for the first time, first type
-flutter pub get 
+```
+flutter pub get
+```
 in your terminal to downlaod all the dependencies for you flutter project.
 
 ## Getting Started
