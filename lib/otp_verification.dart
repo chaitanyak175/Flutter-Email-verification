@@ -134,7 +134,7 @@ class _VerificatoinState extends State<Verificatoin> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("Don't resive the OTP?", style: TextStyle(fontSize: 14, color: Colors.grey.shade500),),
+                    Text("Don't receive the OTP?", style: TextStyle(fontSize: 14, color: Colors.grey.shade500),),
                     TextButton(
                       onPressed: () {
                         if (_isResendAgain) return;
