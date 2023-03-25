@@ -89,7 +89,7 @@ class _LoginPageState extends State<LoginPage> {
                 onPressed: (){},
                 height: 45,
                 color: Colors.black,
-                padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 50),
+                padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 180),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
