@@ -39,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               const SizedBox(height: 50,),
               Container(
-                height: 350,
+                height: 400,
                 child: Stack(
                   children: [
                     Positioned(
@@ -52,6 +52,8 @@ class _LoginPageState extends State<LoginPage> {
                   ]
                 ),
               ),
+              const SizedBox(height: 40,
+              child: Text("To Join the waitlist Please Validate your Email", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),),
               const SizedBox(height: 40,),
               TextField(
                 cursorColor: Colors.black,
@@ -87,7 +89,7 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 30,),
               MaterialButton(
                 onPressed: (){},
-                height: 45,
+                height: 50,
                 color: Colors.black,
                 padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 180),
                 shape: RoundedRectangleBorder(
@@ -95,7 +97,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 child: const Text("Request OTP", style: TextStyle(color: Colors.white, fontSize: 16.0),),
               ),
-              const SizedBox(height: 30,),
+              const SizedBox(height: 50,),
             ],
           ),
         ),
