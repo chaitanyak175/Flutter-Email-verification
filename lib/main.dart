@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:test/login.dart';
+import 'package:test/otp_verification.dart';
 
 
 void main() => runApp(
   const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: LoginPage(),
+    home: Verificatoin(),
   )
 );
 

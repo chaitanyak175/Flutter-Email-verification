@@ -38,7 +38,7 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             children: [
               const SizedBox(height: 50,),
-              Container(
+              SizedBox(
                 height: 400,
                 child: Stack(
                   children: [
@@ -88,7 +88,8 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 20,),
               const SizedBox(height: 30,),
               MaterialButton(
-                onPressed: (){},
+                onPressed: (){
+                },
                 height: 50,
                 color: Colors.black,
                 padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 180),
